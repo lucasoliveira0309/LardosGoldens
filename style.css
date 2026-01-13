@@ -94,7 +94,8 @@ main h2 {
     height: 250px;
     margin-bottom: 40px;
     object-fit: cover;
-}
+    padding-right: 30px;
+}   
 
 .destaque h2 {
     text-align: center;
