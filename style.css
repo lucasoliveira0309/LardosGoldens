@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.fundo {
+    background-color: #D1E9D1;
+}
+
+.btn-whatsapp {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #000000;
+    color: #fff;
+    text-decoration: none;
+
+    padding: 16px 24px;
+    border-radius: 8px;
+
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.btn-whatsapp i {
+    margin-right: 8px;
+    font-size: 1.3em;
+}
+
+header img {
+    width: 380px;
+}
+
+main h1 {
+    text-align: center;
+    font-size: 35px;
+      font-family: "Open Sans", sans-serif;
+}
+
+main h2 {
+    text-align: center;
+    font-size: 17px;
+    padding-top: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+}
+
+.btn-whatsapp,
+.agende-visita {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.btn-whatsapp {
+    width: 300px;
+    margin-left: 30px;
+}
+
+.agende-visita {
+    padding-top: 10px;
+    font-size: 17px;
+    padding-bottom: 15px;
+}
+
+.imagem-oval {
+    width: 300px;
+    height: 420px;
+    overflow:hidden;
+    border-radius: 60% / 55%;
+    margin-left: 35px;
+    margin-bottom: 30px;
+}
+
+.imagem-oval img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.destaque img {
+    width: 400px;
+    width: 400px;
+}
+
+
+
+
+
+/* Smartphone Landscape >>>>>>>>>>>>>>>>>>>>>>> */
+
+@media (min-width: 576px) {}
+
+/* Fim - Smartphone Landscape <<<<<<<<<<<<<<<<<< */
+
+/* Tablet Portrait >>>>>>>>>>>>>>>>>>>>>>> */
+@media (min-width: 768px) {}
+
+/* Fim Tablet Portrait <<<<<<<<<<<<<<<<<< */
+
+/* Tablet Landscape >>>>>>>>>>>>>>>>>>>>>>> */
+@media (min-width: 992px) {}
+
+/* Fim Tablet Landscape <<<<<<<<<<<<<<<<<< */
+
+/* Notebook/Pc >>>>>>>>>>>>>>>>>>>>>>> */
+@media (min-width: 1200px) {}
+
+/* Fim Notebook/Pc <<<<<<<<<<<<<<<<<< */
