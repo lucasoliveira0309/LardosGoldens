@@ -76,8 +76,9 @@ main h2 {
     height: 420px;
     overflow:hidden;
     border-radius: 60% / 55%;
-    margin-left: 35px;
+    margin-left: 45px;
     margin-bottom: 30px;
+   
 }
 
 .imagem-oval img {
