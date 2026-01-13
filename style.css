@@ -90,8 +90,8 @@ main h2 {
 .destaque img {
     display: flex;
     flex-direction: column;
-    width: 100%;
-    height: 230px;
+    width: 110%;
+    height: 250px;
     margin-bottom: 40px;
 }
 
@@ -113,7 +113,7 @@ main h2 {
 }
 
 .compromisso {
-    background-color: #e6fff0; /* verde bb clarinho */
+    background-color: #e6fff0; 
     padding: 60px 20px;
 }
 
@@ -140,7 +140,7 @@ main h2 {
 }
 
 .depoimento-img {
-    width: 55px;   /* pequeno */
+    width: 55px;   
     height: 55px;
     object-fit: cover;
     border-radius: 50%;
@@ -176,6 +176,41 @@ main h2 {
     line-height: 1.5;
 }
 
+.footer-top {
+    background-color: #2f2f2f; 
+    color: #ffffff;
+}
+
+.footer-title {
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.footer-social {
+    color: #ffffff;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 8px;
+}
+
+.footer-social i {
+    margin-right: 8px;
+}
+
+.footer-social:hover {
+    color: #e6fff0;
+}
+
+
+.footer-top p {
+    margin-bottom: 8px;
+}
+
+.footer-bottom {
+    background-color: #050505d8;
+    color: #ffffff;
+    font-size: 14px;
+}
 
 
 
