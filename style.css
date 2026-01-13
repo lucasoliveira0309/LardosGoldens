@@ -129,6 +129,54 @@ main h2 {
     line-height: 1.4;
 }
 
+.depoimentos {
+    background-color: #f8fdf9;
+}
+
+.depoimento-card {
+    max-width: 380px;
+    border: none;
+    border-radius: 16px;
+}
+
+.depoimento-img {
+    width: 55px;   /* pequeno */
+    height: 55px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 20px auto 10px;
+    display: block;
+    border: 3px solid #e6fff0;
+}
+
+.depoimento-card .card-text {
+    font-size: 15px;
+    color: #333;
+    line-height: 1.5;
+}
+
+.visita {
+    background-color: #ffffff;
+}
+
+.visita-card {
+    border: none;
+    border-radius: 16px;
+    overflow: hidden;
+}
+
+.visita-card img {
+    height: 230px;
+    object-fit: cover;
+}
+
+.visita-card .card-text {
+    font-size: 15px;
+    color: #444;
+    line-height: 1.5;
+}
+
+
 
 
 
